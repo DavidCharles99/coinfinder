@@ -1,0 +1,13 @@
+<div class="home_page">
+  <p>Please signin or signup below:</p>
+  <nav>
+    <% if logged_in? %>
+
+    <p>you are logged in my friend</p>
+
+    <% else %>
+    <a href="/signup">Sign Up</a>
+    <a href="/login"> Sign In </a>
+    <%end %>
+  </nav>
+</div>
